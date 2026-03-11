@@ -19,4 +19,5 @@ document.getElementById("result").innerHTML =
 "<p>Non-Essential Expenses (30%): $" + nonEssential.toFixed(2) + "</p>" +
 "<p>Savings (20%): $" + savings.toFixed(2) + "</p>";
 
-}
+} 
+
