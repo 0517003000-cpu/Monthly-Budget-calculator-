@@ -15,9 +15,8 @@ let savings = income * 0.20;
 
 document.getElementById("result").innerHTML =
 "<h3>Budget Breakdown</h3>" +
-"<p>Needs / Essential Expenses (50%): $" + needs.toFixed(2) + "</p>" +
-"<p>Non-Essential Expenses (30%): $" + nonEssential.toFixed(2) + "</p>" +
-"<p>Savings (20%): $" + savings.toFixed(2) + "</p>";
+"<p>Essential Expenses (50%): " + needs.toFixed(0) + "</p>" +
+"<p>Non-Essential Expenses (30%): " + nonEssential.toFixed(0) + "</p>" +
+"<p>Savings (20%): " + savings.toFixed(0) + "</p>";
 
 } 
-
